@@ -1,0 +1,70 @@
+.App {
+
+}
+
+body {
+  background: #f3f6eb;
+  margin: 0px;
+}
+
+hr {
+  border: 1px solid black
+}
+
+.home img {
+  width: 100%;
+  border-bottom: 2px solid black;
+}
+
+.navbar {
+  border-bottom: 2px solid black;
+  position: fixed;
+  top: 0;
+  background: #f3f6eb;
+  width: 100%;
+  height: 65px;
+  align-items: center;
+  display: flex;
+}
+
+.row {
+  display: flex;
+  justify-content: center;
+}
+
+.col {
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+.home {
+  transition: opacity 0.5s;
+  opacity: 1;
+}
+
+ul {
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+#nav li {
+ display: inline-block;
+}
+
+#nav h1 {
+  margin-right: 40px;
+}
+
+#nav li a {
+  display: block;
+  padding: 8px 15px;
+  text-decoration: none;
+  font-weight: bold;
+  color: black;
+}
+
+#nav li a:hover {
+  color: white;
+  background: black;
+  transition: 0.5s
+}
